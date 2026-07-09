@@ -219,39 +219,6 @@ function calculate() {
 [pagesRange, seoCheck, gameCheck, maintenanceCheck].forEach((el) => el?.addEventListener('input', calculate));
 calculate();
 
-// Contact form (Netlify Forms via AJAX)
-const contactForm = document.querySelector('.contact-form[data-netlify]');
-const formStatus = document.querySelector('.form-status');
-
-contactForm?.addEventListener('submit', async (event) => {
-  event.preventDefault();
-  const submitBtn = contactForm.querySelector('button[type="submit"]');
-  const originalLabel = submitBtn?.textContent;
-
-  if (submitBtn) {
-    submitBtn.disabled = true;
-    submitBtn.textContent = t('contact.sending');
-  }
-
-  try {
-    const formData = new FormData(contactForm);
-    const response = await fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData).toString()
-    });
-    if (!response.ok) throw new Error('Network response was not ok');
-    showFormStatus('success', t('contact.success'));
-    contactForm.reset();
-  } catch (error) {
-    showFormStatus('error', t('contact.error'));
-  } finally {
-    if (submitBtn) {
-      submitBtn.disabled = false;
-      submitBtn.textContent = originalLabel;
-    }
-  }
-});
 
 function showFormStatus(type, message) {
   if (!formStatus) return;
