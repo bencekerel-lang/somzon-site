@@ -277,7 +277,7 @@
           </div>
           <p class="form-note" data-i18n="contact.reply">Vi svarer normalt inden for 24 timer.</p>
         </div>
-        <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
           <input type="hidden" name="form-name" value="contact" />
           <p class="honeypot" aria-hidden="true"><label>Don’t fill this out: <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
           <label><span data-i18n="contact.name">Navn</span><input name="name" placeholder="Dit navn" required autocomplete="name" data-i18n-attr="placeholder:contact.namePlaceholder" /></label>
