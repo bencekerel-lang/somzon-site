@@ -30,8 +30,9 @@ const translations = {
     'addons.eyebrow': 'Tilvalg', 'addons.title': 'Ekstra ydelser, der løfter din digitale tilstedeværelse.',
     'addons.logoTitle': 'Logo + identitet', 'addons.logoText': 'Simpelt logo, farvepalette og skabeloner til sociale medier.', 'addons.blogTitle': 'Blog / vidensbase', 'addons.blogText': 'SEO-artikler om hjemmesider, Google, app-udvikling og gamified marketing.', 'addons.supportTitle': 'Månedlig support', 'addons.supportText': 'Opdateringer, backup, indhold, smårettelser og sikkerhedstjek.', 'addons.auditTitle': 'Gratis mini-audit', 'addons.auditText': 'Send din nuværende side, og få en kort SEO-checkliste — helt gratis.',
     'contact.eyebrow': 'Kontakt', 'contact.title': 'Få et tilbud på dit næste projekt.', 'contact.lead': 'Skriv, hvad du har brug for: hjemmeside, SEO, app- og spiludvikling eller en samlet pakke.', 'contact.reply': 'Vi svarer normalt inden for 24 timer.',
-    'contact.name': 'Navn', 'contact.namePlaceholder': 'Dit navn', 'contact.email': 'Email', 'contact.service': 'Ydelse', 'contact.optionWeb': 'Hjemmesideudvikling', 'contact.optionSeo': 'SEO', 'contact.optionAppGame': 'App- & spiludvikling', 'contact.optionAll': 'Komplet pakke', 'contact.message': 'Besked', 'contact.messagePlaceholder': 'Beskriv kort din idé...', 'contact.submit': 'Send besked', 'contact.sending': 'Sender...',
-    'contact.success': 'Tak for din besked! Vi vender tilbage hurtigst muligt.', 'contact.error': 'Beskeden kunne ikke sendes. Prøv igen, eller skriv direkte til os på e-mail.',
+    'contact.name': 'Navn', 'contact.namePlaceholder': 'Dit navn', 'contact.email': 'Email', 'contact.service': 'Ydelse', 'contact.optionWeb': 'Hjemmesideudvikling', 'contact.optionSeo': 'SEO', 'contact.optionAppGame': 'App- & spiludvikling', 'contact.optionAll': 'Komplet pakke', 'contact.message': 'Besked', 'contact.messagePlaceholder': 'Beskriv kort din idé...', 'contact.submit': 'Send besked',
+    'footer.cookies': 'Cookies & privatliv', 'cookie.text': 'Vi bruger ingen tracking-cookies. Siden gemmer kun dit sprogvalg og dit samtykke lokalt i din browser.', 'cookie.more': 'Læs mere', 'cookie.accept': 'OK, forstået',
+    'cp.title': 'Cookies & privatliv | Somzon Studio', 'cp.h1': 'Cookies & privatliv', 'cp.intro': 'Kort version: denne side bruger ingen tracking-cookies, ingen analyse- eller reklameværktøjer.', 'cp.storeH': 'Hvad gemmer siden?', 'cp.storeText': 'Siden gemmer to små værdier i din browsers lokale lager (localStorage): dit sprogvalg og en markering af, at du har lukket cookie-beskeden. Disse data forlader aldrig din browser og kan slettes når som helst i browserens indstillinger.', 'cp.thirdH': 'Tredjeparter', 'cp.thirdText': 'Skrifttyper indlæses fra Google Fonts, og siden hostes hos Netlify. Når du besøger siden, ser disse tjenester din IP-adresse som en teknisk nødvendighed for at levere indholdet. Vi bruger ingen analyse, annoncer eller sporing.', 'cp.formH': 'Kontaktformular', 'cp.formText': 'Hvis du sender en besked via kontaktformularen, behandles dine oplysninger (navn, email, besked) af Netlify Forms og bruges udelukkende til at besvare din henvendelse.', 'cp.contactH': 'Spørgsmål?', 'cp.contactText': 'Har du spørgsmål om privatliv, kan du kontakte os via kontaktformularen på forsiden.', 'cp.back': '← Tilbage til forsiden',
     'footer.copy': '© <span id="year"></span> Somzon Studio. Web • SEO • Apps & Spil.', 'footer.top': 'Tilbage til toppen ↑'
   },
   en: {
@@ -65,8 +66,9 @@ const translations = {
     'addons.eyebrow': 'Add-ons', 'addons.title': 'Extras that strengthen your digital presence.',
     'addons.logoTitle': 'Logo + identity', 'addons.logoText': 'Simple logo, color palette and social media templates.', 'addons.blogTitle': 'Blog / knowledge base', 'addons.blogText': 'SEO articles about websites, Google, app development and gamified marketing.', 'addons.supportTitle': 'Monthly support', 'addons.supportText': 'Updates, backups, content, small fixes and security checks.', 'addons.auditTitle': 'Free mini-audit', 'addons.auditText': 'Send your current site and get a short SEO checklist — completely free.',
     'contact.eyebrow': 'Contact', 'contact.title': 'Get a quote for your next project.', 'contact.lead': 'Tell us what you need: a website, SEO, app and game development, or a complete package.', 'contact.reply': 'We usually reply within 24 hours.',
-    'contact.name': 'Name', 'contact.namePlaceholder': 'Your name', 'contact.email': 'Email', 'contact.service': 'Service', 'contact.optionWeb': 'Website development', 'contact.optionSeo': 'SEO', 'contact.optionAppGame': 'App & game development', 'contact.optionAll': 'Complete package', 'contact.message': 'Message', 'contact.messagePlaceholder': 'Briefly describe your idea...', 'contact.submit': 'Send message', 'contact.sending': 'Sending...',
-    'contact.success': 'Thanks for your message! We will get back to you as soon as possible.', 'contact.error': 'The message could not be sent. Please try again or email us directly.',
+    'contact.name': 'Name', 'contact.namePlaceholder': 'Your name', 'contact.email': 'Email', 'contact.service': 'Service', 'contact.optionWeb': 'Website development', 'contact.optionSeo': 'SEO', 'contact.optionAppGame': 'App & game development', 'contact.optionAll': 'Complete package', 'contact.message': 'Message', 'contact.messagePlaceholder': 'Briefly describe your idea...', 'contact.submit': 'Send message',
+    'footer.cookies': 'Cookies & privacy', 'cookie.text': 'We don\'t use any tracking cookies. The site only stores your language choice and this consent locally in your browser.', 'cookie.more': 'Read more', 'cookie.accept': 'OK, got it',
+    'cp.title': 'Cookies & privacy | Somzon Studio', 'cp.h1': 'Cookies & privacy', 'cp.intro': 'Short version: this site uses no tracking cookies and no analytics or advertising tools.', 'cp.storeH': 'What does the site store?', 'cp.storeText': 'The site stores two small values in your browser\'s local storage (localStorage): your language choice and a flag that you have dismissed the cookie notice. This data never leaves your browser and can be deleted at any time in your browser settings.', 'cp.thirdH': 'Third parties', 'cp.thirdText': 'Fonts are loaded from Google Fonts and the site is hosted on Netlify. When you visit, these services see your IP address as a technical necessity to deliver the content. We use no analytics, ads or tracking.', 'cp.formH': 'Contact form', 'cp.formText': 'If you send a message via the contact form, your details (name, email, message) are processed by Netlify Forms and used solely to reply to your enquiry.', 'cp.contactH': 'Questions?', 'cp.contactText': 'If you have privacy questions, contact us via the form on the front page.', 'cp.back': '← Back to the front page',
     'footer.copy': '© <span id="year"></span> Somzon Studio. Web • SEO • Apps & Games.', 'footer.top': 'Back to top ↑'
   },
   hu: {
@@ -100,8 +102,9 @@ const translations = {
     'addons.eyebrow': 'Kiegészítők', 'addons.title': 'Extrák, amelyek erősítik a digitális jelenléted.',
     'addons.logoTitle': 'Logó + arculat', 'addons.logoText': 'Egyszerű logó, színpaletta és social media sablonok.', 'addons.blogTitle': 'Blog / tudástár', 'addons.blogText': 'SEO-cikkek weboldalról, Google-ről, alkalmazásfejlesztésről és játékos marketingről.', 'addons.supportTitle': 'Havi support', 'addons.supportText': 'Frissítések, mentések, tartalomfeltöltés, kisebb javítások és biztonsági ellenőrzés.', 'addons.auditTitle': 'Ingyenes mini-audit', 'addons.auditText': 'Küldd el a jelenlegi oldalad, és kapsz egy rövid SEO-checklistet — teljesen ingyen.',
     'contact.eyebrow': 'Kapcsolat', 'contact.title': 'Kérj ajánlatot a következő projektedre.', 'contact.lead': 'Írd meg, mire van szükséged: weboldal, SEO, alkalmazás- és játékfejlesztés vagy komplett csomag.', 'contact.reply': 'Általában 24 órán belül válaszolunk.',
-    'contact.name': 'Név', 'contact.namePlaceholder': 'A neved', 'contact.email': 'Email', 'contact.service': 'Szolgáltatás', 'contact.optionWeb': 'Weboldal készítés', 'contact.optionSeo': 'SEO', 'contact.optionAppGame': 'Alkalmazás- és játékfejlesztés', 'contact.optionAll': 'Komplett csomag', 'contact.message': 'Üzenet', 'contact.messagePlaceholder': 'Röviden írd le az ötleted...', 'contact.submit': 'Üzenet küldése', 'contact.sending': 'Küldés...',
-    'contact.success': 'Köszönjük az üzeneted! Hamarosan válaszolunk.', 'contact.error': 'Az üzenetet nem sikerült elküldeni. Próbáld újra, vagy írj közvetlenül e-mailben.',
+    'contact.name': 'Név', 'contact.namePlaceholder': 'A neved', 'contact.email': 'Email', 'contact.service': 'Szolgáltatás', 'contact.optionWeb': 'Weboldal készítés', 'contact.optionSeo': 'SEO', 'contact.optionAppGame': 'Alkalmazás- és játékfejlesztés', 'contact.optionAll': 'Komplett csomag', 'contact.message': 'Üzenet', 'contact.messagePlaceholder': 'Röviden írd le az ötleted...', 'contact.submit': 'Üzenet küldése',
+    'footer.cookies': 'Sütik & adatvédelem', 'cookie.text': 'Nem használunk követő sütiket. Az oldal csak a nyelvi beállításodat és ezt a jóváhagyást tárolja helyben, a böngésződben.', 'cookie.more': 'Bővebben', 'cookie.accept': 'Rendben',
+    'cp.title': 'Sütik & adatvédelem | Somzon Studio', 'cp.h1': 'Sütik & adatvédelem', 'cp.intro': 'Röviden: ez az oldal nem használ követő sütiket, sem analitikai vagy hirdetési eszközöket.', 'cp.storeH': 'Mit tárol az oldal?', 'cp.storeText': 'Az oldal két apró értéket tárol a böngésződ helyi tárolójában (localStorage): a nyelvi beállításodat és azt, hogy bezártad a süti-értesítést. Ezek az adatok soha nem hagyják el a böngésződet, és bármikor törölhetők a böngésző beállításaiban.', 'cp.thirdH': 'Harmadik felek', 'cp.thirdText': 'A betűtípusok a Google Fonts-ról töltődnek be, az oldalt a Netlify szolgáltatja. Látogatáskor ezek a szolgáltatások technikai szükségszerűségből látják az IP-címedet a tartalom kiszolgálásához. Analitikát, hirdetést, követést nem használunk.', 'cp.formH': 'Kapcsolati űrlap', 'cp.formText': 'Ha üzenetet küldesz az űrlapon, az adataidat (név, email, üzenet) a Netlify Forms dolgozza fel, és kizárólag a megkeresésed megválaszolására használjuk.', 'cp.contactH': 'Kérdésed van?', 'cp.contactText': 'Adatvédelmi kérdéssel a főoldali űrlapon keresztül kereshetsz minket.', 'cp.back': '← Vissza a főoldalra',
     'footer.copy': '© <span id="year"></span> Somzon Studio. Web • SEO • Appok & Játékok.', 'footer.top': 'Vissza a tetejére ↑'
   }
 };
@@ -145,11 +148,6 @@ function updateYear() {
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 }
 
-function t(key) {
-  const dict = translations[currentLang] || translations.da;
-  return dict[key] !== undefined ? dict[key] : (translations.da[key] || key);
-}
-
 function applyLanguage(lang) {
   currentLang = translations[lang] ? lang : 'da';
   const dictionary = translations[currentLang];
@@ -177,15 +175,50 @@ function applyLanguage(lang) {
   document.querySelectorAll('.lang-btn').forEach((btn) => {
     const isActive = btn.dataset.lang === currentLang;
     btn.classList.toggle('active', isActive);
-    btn.setAttribute('aria-pressed', String(isActive));
+    btn.setAttribute('aria-selected', String(isActive));
+    if (isActive) {
+      const toggleFlag = document.querySelector('.lang-toggle .lang-flag');
+      const toggleCode = document.querySelector('.lang-toggle .lang-current');
+      const optionFlag = btn.querySelector('.lang-flag');
+      if (toggleFlag && optionFlag) toggleFlag.innerHTML = optionFlag.innerHTML;
+      if (toggleCode) toggleCode.textContent = currentLang.toUpperCase();
+    }
   });
 
   document.title = dictionary['meta.title'] || document.title;
   updateYear();
 }
 
+// Language dropdown
+const langToggle = document.querySelector('.lang-toggle');
+const langMenu = document.querySelector('.lang-menu');
+
+function closeLangMenu() {
+  if (!langMenu || !langToggle) return;
+  langMenu.hidden = true;
+  langToggle.setAttribute('aria-expanded', 'false');
+}
+
+langToggle?.addEventListener('click', (event) => {
+  event.stopPropagation();
+  const willOpen = langMenu.hidden;
+  langMenu.hidden = !willOpen;
+  langToggle.setAttribute('aria-expanded', String(willOpen));
+});
+
+document.addEventListener('click', (event) => {
+  if (langMenu && !langMenu.hidden && !event.target.closest('.language-switcher')) closeLangMenu();
+});
+
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') closeLangMenu();
+});
+
 document.querySelectorAll('.lang-btn').forEach((btn) => {
-  btn.addEventListener('click', () => applyLanguage(btn.dataset.lang));
+  btn.addEventListener('click', () => {
+    applyLanguage(btn.dataset.lang);
+    closeLangMenu();
+  });
 });
 
 let storedLang = 'da';
@@ -218,15 +251,6 @@ function calculate() {
 
 [pagesRange, seoCheck, gameCheck, maintenanceCheck].forEach((el) => el?.addEventListener('input', calculate));
 calculate();
-
-
-function showFormStatus(type, message) {
-  if (!formStatus) return;
-  formStatus.hidden = false;
-  formStatus.textContent = message;
-  formStatus.classList.remove('success', 'error');
-  formStatus.classList.add(type);
-}
 
 // Back to top
 document.querySelector('.back-to-top')?.addEventListener('click', () => {
@@ -266,4 +290,16 @@ const phoneLink = document.querySelector('.js-phone');
 if (phoneLink) {
   phoneLink.setAttribute('href', 'tel:' + getPhoneRaw());
   phoneLink.textContent = getPhoneDisplay();
+}
+
+// Cookie notice (stores a local flag only — no tracking cookies are used)
+const cookieBanner = document.getElementById('cookieBanner');
+if (cookieBanner) {
+  let accepted = false;
+  try { accepted = localStorage.getItem('somzon_cookie_ok') === '1'; } catch (e) { /* private mode */ }
+  if (!accepted) cookieBanner.hidden = false;
+  cookieBanner.querySelector('.cookie-accept')?.addEventListener('click', () => {
+    cookieBanner.hidden = true;
+    try { localStorage.setItem('somzon_cookie_ok', '1'); } catch (e) { /* private mode */ }
+  });
 }

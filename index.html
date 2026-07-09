@@ -52,10 +52,17 @@
         <a href="#work" data-i18n="nav.work">Projekter</a>
         <a href="#pricing" data-i18n="nav.pricing">Priser</a>
         <a href="#seo" data-i18n="nav.seo">SEO</a>
-        <div class="language-switcher" role="group" aria-label="Language selector" data-i18n-attr="aria-label:language.aria">
-          <button type="button" class="lang-btn active" data-lang="da" aria-pressed="true">DA</button>
-          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
-          <button type="button" class="lang-btn" data-lang="hu" aria-pressed="false">HU</button>
+        <div class="language-switcher">
+          <button type="button" class="lang-toggle" aria-haspopup="listbox" aria-expanded="false" aria-label="Language selector" data-i18n-attr="aria-label:language.aria">
+            <span class="lang-flag" data-flag-slot="true"></span>
+            <span class="lang-current">DA</span>
+            <span class="lang-caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="lang-menu" role="listbox" hidden>
+            <li><button type="button" class="lang-btn" data-lang="da" role="option" aria-selected="true"><span class="lang-flag"><svg viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="14" fill="#C8102E"/><rect x="6" width="2.6" height="14" fill="#fff"/><rect y="5.7" width="20" height="2.6" fill="#fff"/></svg></span>Dansk</button></li>
+            <li><button type="button" class="lang-btn" data-lang="en" role="option" aria-selected="false"><span class="lang-flag"><svg viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="14" fill="#012169"/><path d="M0,0 L20,14 M20,0 L0,14" stroke="#fff" stroke-width="2.8"/><path d="M0,0 L20,14 M20,0 L0,14" stroke="#C8102E" stroke-width="1.2"/><rect x="8.4" width="3.2" height="14" fill="#fff"/><rect y="5.4" width="20" height="3.2" fill="#fff"/><rect x="9.1" width="1.8" height="14" fill="#C8102E"/><rect y="6.1" width="20" height="1.8" fill="#C8102E"/></svg></span>English</button></li>
+            <li><button type="button" class="lang-btn" data-lang="hu" role="option" aria-selected="false"><span class="lang-flag"><svg viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="4.67" fill="#CE2939"/><rect y="4.67" width="20" height="4.67" fill="#fff"/><rect y="9.33" width="20" height="4.67" fill="#477050"/></svg></span>Magyar</button></li>
+          </ul>
         </div>
         <a href="#contact" class="nav-cta" data-i18n="nav.cta">Få et tilbud</a>
       </div>
@@ -76,7 +83,7 @@
           <span data-i18n="hero.trust1">⚡ Hurtig indlæsning</span>
           <span data-i18n="hero.trust2">📱 Mobilvenlig</span>
           <span data-i18n="hero.trust3">🔎 SEO-klar</span>
-          <span data-i18n="hero.trust4">🇩🇰 Dansk • English • Magyar</span>
+          <span data-i18n="hero.trust4">🌍 Dansk • English • Magyar</span>
         </div>
       </div>
       <div class="hero-card reveal delay-1" aria-hidden="true">
@@ -277,7 +284,7 @@
           </div>
           <p class="form-note" data-i18n="contact.reply">Vi svarer normalt inden for 24 timer.</p>
         </div>
-        <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+        <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
           <input type="hidden" name="form-name" value="contact" />
           <p class="honeypot" aria-hidden="true"><label>Don’t fill this out: <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
           <label><span data-i18n="contact.name">Navn</span><input name="name" placeholder="Dit navn" required autocomplete="name" data-i18n-attr="placeholder:contact.namePlaceholder" /></label>
@@ -292,7 +299,6 @@
           </label>
           <label><span data-i18n="contact.message">Besked</span><textarea name="message" rows="5" placeholder="Beskriv kort din idé..." required data-i18n-attr="placeholder:contact.messagePlaceholder"></textarea></label>
           <button class="btn primary" type="submit" data-i18n="contact.submit">Send besked</button>
-          <p class="form-status" role="status" aria-live="polite" hidden></p>
         </form>
       </div>
     </section>
@@ -301,9 +307,20 @@
   <footer class="footer">
     <div class="container footer-inner">
       <p data-i18n-html="footer.copy">© <span id="year"></span> Somzon Studio. Web • SEO • Apps & Spil.</p>
-      <button class="back-to-top" type="button" data-i18n="footer.top">Tilbage til toppen ↑</button>
+      <div class="footer-actions">
+        <a class="footer-link" href="/cookies.html" data-i18n="footer.cookies">Cookies & privatliv</a>
+        <button class="back-to-top" type="button" data-i18n="footer.top">Tilbage til toppen ↑</button>
+      </div>
     </div>
   </footer>
+
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Cookies" hidden>
+    <p data-i18n="cookie.text">Vi bruger ingen tracking-cookies. Siden gemmer kun dit sprogvalg og dit samtykke lokalt i din browser.</p>
+    <div class="cookie-actions">
+      <a href="/cookies.html" data-i18n="cookie.more">Læs mere</a>
+      <button type="button" class="btn primary cookie-accept" data-i18n="cookie.accept">OK, forstået</button>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
